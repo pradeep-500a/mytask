@@ -1,0 +1,9 @@
+#!/bin/bash
+read string 
+if [ $string == "hello" ]
+then 
+echo "The string is correct"
+else
+echo "wrong string entered"
+fi
+## ./variable
